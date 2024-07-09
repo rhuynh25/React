@@ -3,11 +3,13 @@ import React from 'react';
 import BasicInfo from './BasicInfo';
 
 class App extends React.Component {
+// Very Easy was replaced by Medium
 
+// Easy, Medium and Hard section all together
   constructor(props) {
     super(props);
     this.state = {
-      people: [
+      person: [
         {name: 'John', number: '123-456-7890', dob: '01/01/2000'},
         {name: 'Jane', number: '123-456-7890', dob: '01/01/2000'},
         {name: 'Jim', number: '123-456-7890', dob: '01/01/2000'},
