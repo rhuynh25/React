@@ -4,7 +4,12 @@ import BasicInfo from './BasicInfo';
 
 class App extends React.Component {
 // Very Easy was replaced by Medium
-
+  // <div>
+  //   <p> Name: John</p>
+  //   <p> Number: 123-456-7890</p>
+  //   <p> Date of Birth: 01/01/2000</p>
+  // </div>
+  
 // Easy, Medium and Hard section all together
   constructor(props) {
     super(props);
